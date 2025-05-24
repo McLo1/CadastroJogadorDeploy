@@ -1,0 +1,62 @@
+.home-container {
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: white;
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.home-box {
+    background-color: #ffffff;
+    /* Branco - uniforme */
+    border: 3px solid #000000;
+    /* Preto - bola */
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 1000px;
+}
+
+.home-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: black;
+    /* Verde escuro */
+    font-weight: bold;
+}
+
+.home-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-button.green {
+    background-color: #275ee0;
+    /* Verde claro - campo */
+    color: white;
+}
+
+.home-button.green:hover {
+    background-color: #2250bb;
+}
+
+.home-button.white {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.home-button.white:hover {
+    background-color: #f0f0f0;
+}
